@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -90,14 +91,13 @@ fun CartContent(
             verticalArrangement = Arrangement.spacedBy(8.dp),
             modifier = Modifier.weight(weight = 1f)
         ) {
-            items(state.orderHandphone.size) { index ->
-                val item = state.orderHandphone[index]
+            items(state.orderHandphone, key = { it.handphone.id}) { data ->
                 CartItem(
-                    handphoneId = item.handphone.id,
-                    image = item.handphone.image,
-                    title = item.handphone.name,
-                    totalPrice = item.handphone.price * item.count,
-                    count = item.count,
+                    handphoneId = data.handphone.id,
+                    image = data.handphone.image,
+                    title = data.handphone.name,
+                    totalPrice = data.handphone.price * data.count,
+                    count = data.count,
                     onProductCountChanged = onProductCountChanged,
                 )
                 Divider()

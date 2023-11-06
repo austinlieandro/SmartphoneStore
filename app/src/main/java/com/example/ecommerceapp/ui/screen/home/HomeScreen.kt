@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -74,8 +75,7 @@ fun HomeContent(
         verticalArrangement = Arrangement.spacedBy(16.dp),
         modifier = modifier.testTag("RewardList")
     ) {
-        items(orderHandphone.size) { index ->
-            val data = orderHandphone[index]
+        items(orderHandphone) { data ->
             HandphoneItem(
                 image = data.handphone.image,
                 title = data.handphone.name,
