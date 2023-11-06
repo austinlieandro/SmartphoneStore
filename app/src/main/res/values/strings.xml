@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EcommerceApp</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_cart">Keranjang</string>
+    <string name="menu_profile">Profile</string>
+    <string name="price">Rp. %d</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+    <string name="minus_symbol">—</string>
+    <string name="plus_symbol">＋</string>
+    <string name="add_to_cart">Tambah ke Keranjang : Rp. %d</string>
+    <string name="total_order">Total pesanan : Rp. %d</string>
+    <string name="back">Back</string>
+    <string name="dicoding_handphone">Dicoding Handphone</string>
+    <string name="share_message">Hey, I have pruchase %1$d handphone in Dicoding with total %2$d Points. Do you want too?</string>
+    <string name="scroll_to_top">Scroll to Top</string>
+    <string name="search_handphone">Cari handphonemu</string>
+    <string name="name_profile">Austin Lieandro</string>
+    <string name="email_profile">austinliecoeg123@gmail.com</string>
+    <string name="cart_image">Cart Image</string>
+    <string name="handphone_item_image">handphone image</string>
+</resources>
