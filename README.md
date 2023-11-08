@@ -6,3 +6,11 @@ An Android application built using Jetpack Compose that can display a list of mo
   - Search handphone
   - Detail handphone
   - Add & Remove handphone to cart
+  - Implement testing with compose
+
+## Preview Smartphone Store App
+<p>
+  <img src="https://imgur.com/a28kkz5.png" width="30%"/>
+  <img src="https://imgur.com/RXjVvPG.png" width="30%"/>
+  <img src="https://imgur.com/bjKxSCx.png" width="30%"/>
+</p>
